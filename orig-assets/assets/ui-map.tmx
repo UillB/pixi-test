@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.1" orientation="orthogonal" renderorder="left-up" width="108" height="192" tilewidth="10" tileheight="10" infinite="0" nextlayerid="14" nextobjectid="53">
+ <tileset firstgid="1" name="images" tilewidth="1205" tileheight="774" tilecount="24" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="173" height="177" source="arrow_btn.png"/>
+  </tile>
+  <tile id="1">
+   <image width="103" height="106" source="close_set_btn.png"/>
+  </tile>
+  <tile id="2">
+   <image width="700" height="147" source="game-btn-disabled.png"/>
+  </tile>
+  <tile id="3">
+   <image width="700" height="147" source="game-btn-enabled.png"/>
+  </tile>
+  <tile id="4">
+   <image width="617" height="156" source="head-difficulty.png"/>
+  </tile>
+  <tile id="5">
+   <image width="104" height="107" source="menu-button.png"/>
+  </tile>
+  <tile id="6">
+   <image width="851" height="693" source="panel.png"/>
+  </tile>
+  <tile id="7">
+   <image width="103" height="106" source="pause_btn.png"/>
+  </tile>
+  <tile id="8">
+   <image width="104" height="107" source="play-button.png"/>
+  </tile>
+  <tile id="9">
+   <image width="698" height="67" source="progress-bg.png"/>
+  </tile>
+  <tile id="10">
+   <image width="675" height="49" source="progress-line.png"/>
+  </tile>
+  <tile id="11">
+   <image width="105" height="107" source="reload-button.png"/>
+  </tile>
+  <tile id="12">
+   <image width="103" height="106" source="settings_btn.png"/>
+  </tile>
+  <tile id="13">
+   <image width="257" height="97" source="level.png"/>
+  </tile>
+  <tile id="14">
+   <image width="173" height="177" source="arrow-right-btn.png"/>
+  </tile>
+  <tile id="15">
+   <image width="1205" height="774" source="head-win.png"/>
+  </tile>
+  <tile id="16">
+   <image width="642" height="171" source="head-lose.png"/>
+  </tile>
+  <tile id="17">
+   <image width="327" height="468" source="neeo-dialog.png"/>
+  </tile>
+  <tile id="18">
+   <image width="16" height="16" source="white.png"/>
+  </tile>
+  <tile id="19">
+   <image width="663" height="270" source="pause.png"/>
+  </tile>
+  <tile id="20">
+   <image width="102" height="105" source="cancel-btn.png"/>
+  </tile>
+  <tile id="21">
+   <image width="102" height="105" source="ok-btn.png"/>
+  </tile>
+  <tile id="22">
+   <image width="663" height="324" source="exit.png"/>
+  </tile>
+  <tile id="23">
+   <image width="101" height="105" source="exit-btn-main.png"/>
+  </tile>
+ </tileset>
+ <objectgroup draworder="index" id="4" name="progress-bar">
+  <object id="1" name="back" gid="10" x="190" y="89" width="698" height="67"/>
+  <object id="2" name="slider" gid="11" x="203" y="81" width="675" height="49"/>
+  <object id="3" name="progress-bar-text" x="220" y="31" width="645" height="48">
+   <properties>
+    <property name="ouline" type="color" value="#ff22712a"/>
+   </properties>
+   <text fontfamily="Carter One MultiCyr" pixelsize="36" wrap="1" color="#ffffff" halign="center" valign="center">Простой пример</text>
+  </object>
+  <object id="26" name="progress-title" gid="14" x="413" y="206" width="257" height="97"/>
+  <object id="27" name="progress-title-text" x="497" y="135" width="148" height="45">
+   <properties>
+    <property name="ouline" type="color" value="#ff22712a"/>
+   </properties>
+   <text fontfamily="Carter One MultiCyr" pixelsize="32" wrap="1" color="#ffffff" halign="center" valign="center">Level 1/3</text>
+  </object>
+ </objectgroup>
+ <objectgroup draworder="index" id="10" name="hint">
+  <object id="33" name="empty" gid="19" x="-10" y="1764" width="1093" height="352"/>
+  <object id="31" name="text" x="358" y="1436" width="597" height="302">
+   <text fontfamily="Carter One MultiCyr" pixelsize="32" wrap="1" valign="center">{HINT TEXT}</text>
+  </object>
+  <object id="32" name="avatar" gid="18" x="-2" y="1765" width="327" height="468"/>
+  <object id="38" name="next-btn" gid="2147483650" x="1054" y="1732" width="103" height="106" rotation="-90"/>
+ </objectgroup>
+ <objectgroup draworder="index" id="9" name="settings">
+  <object id="22" name="pause-btn" gid="8" x="81" y="128" width="103" height="106">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="52" name="exit-btn" gid="24" x="894" y="131" width="101" height="105"/>
+ </objectgroup>
+ <objectgroup id="12" name="controls_full" visible="0" offsetx="0" offsety="-60">
+  <object id="39" name="arrow-left-btn" gid="1" x="75" y="1784" width="173" height="177">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="40" name="arrow-right-btn" gid="2147483649" x="306" y="1784" width="173" height="177">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="41" name="arrow-top-btn" gid="2147483649" x="993" y="1655" width="173" height="177" rotation="-90">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="43" name="arrow-bottom-btn" gid="1073741839" x="819" y="1710" width="173" height="177" rotation="90">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="controls_hor" visible="0" offsetx="0" offsety="-60">
+  <object id="20" name="arrow-left-btn" gid="1" x="78" y="1800" width="173" height="177">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="21" name="arrow-right-btn" gid="2147483649" x="829" y="1800" width="173" height="177">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup draworder="index" id="7" name="popup">
+  <object id="4" name="bg" gid="7" x="114" y="1323" width="851" height="693"/>
+  <object id="5" name="title-start" gid="5" x="245" y="727" width="617" height="156"/>
+  <object id="29" name="title-lose" gid="17" x="231" y="720" width="642" height="171"/>
+  <object id="30" name="title-win" gid="16" x="-66" y="999" width="1205" height="774"/>
+  <object id="44" name="menu-btn" gid="21" x="490" y="1348" width="102" height="105">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="12" name="level-0-btn" gid="4" x="200" y="898" width="700" height="147">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="9" name="level-0-btn:disabled" gid="3" x="199" y="898" width="700" height="147" visible="0">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="17" name="level-0-btn:text" x="346" y="796" width="402" height="48">
+   <properties>
+    <property name="ouline" type="color" value="#ff22712a"/>
+   </properties>
+   <text fontfamily="Carter One MultiCyr" pixelsize="42" wrap="1" color="#ffffff" valign="center">Level 1: Easy</text>
+  </object>
+  <object id="13" name="level-1-btn" gid="4" x="200" y="1058" width="700" height="147">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="10" name="level-1-btn:disabled" gid="3" x="200" y="1058" width="700" height="147" visible="0">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="19" name="level-1-btn:text" x="346" y="956" width="402" height="48">
+   <properties>
+    <property name="ouline" type="color" value="#ff22712a"/>
+   </properties>
+   <text fontfamily="Carter One MultiCyr" pixelsize="42" wrap="1" color="#ffffff" valign="center">Level 2: Normal</text>
+  </object>
+  <object id="14" name="level-2-btn" gid="4" x="200" y="1212" width="700" height="147">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="11" name="level-2-btn:disabled" gid="3" x="200" y="1212" width="700" height="147" visible="0">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="18" name="level-2-btn:text" x="346" y="1117" width="402" height="48">
+   <properties>
+    <property name="ouline" type="color" value="#ff22712a"/>
+   </properties>
+   <text fontfamily="Carter One MultiCyr" pixelsize="42" wrap="1" color="#ffffff" valign="center">Level 3: Hard</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="11" name="pause">
+  <object id="35" name="reload-btn" gid="12" x="622" y="1142" width="105" height="107">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" name="menu-btn" gid="6" x="348" y="1142" width="104" height="107">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="37" name="play-btn" gid="9" x="484" y="1140" width="104" height="107"/>
+  <object id="34" name="bg-pause" gid="20" x="205" y="1111" width="663" height="270"/>
+ </objectgroup>
+ <objectgroup draworder="index" id="13" name="exit">
+  <object id="49" name="bg-exit" gid="23" x="201" y="1163" width="663" height="324"/>
+  <object id="50" name="cancel-btn" gid="21" x="405" y="1198" width="102" height="105">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="51" name="ok-btn" gid="22" x="560" y="1198" width="102" height="105">
+   <properties>
+    <property name="buttonMode" type="bool" value="true"/>
+    <property name="interactive" type="bool" value="true"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <imagelayer id="3" name="ref" visible="0" opacity="0.48">
+  <image source="Tower_2.png" width="1080" height="1920"/>
+  <properties>
+   <property name="ignore" type="bool" value="true"/>
+  </properties>
+ </imagelayer>
+</map>

@@ -1,0 +1,15 @@
+{
+	"preloadAny": true,
+	"preloads": ["main_theme"],
+	"baseDir": "/snd/",
+	"list": [
+		"/Any/lose.mp3",
+		"/Any/next_level.mp3",
+		"/Any/win.mp3",
+		"/Any/stuckout.mp3",
+		"/Labirint/catching.mp3",
+		"/Labirint/dark.mp3",
+		"/Labirint/ghost.mp3",
+		"/Labirint/main_theme5.mp3"
+	]
+}

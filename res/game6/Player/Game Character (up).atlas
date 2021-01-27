@@ -1,0 +1,55 @@
+
+Game Character (up).png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 118, 44
+  size: 102, 76
+  orig: 102, 76
+  offset: 0, 0
+  index: -1
+flashlight
+  rotate: true
+  xy: 118, 8
+  size: 34, 91
+  orig: 34, 91
+  offset: 0, 0
+  index: -1
+hand left
+  rotate: false
+  xy: 222, 71
+  size: 63, 49
+  orig: 63, 49
+  offset: 0, 0
+  index: -1
+hand right
+  rotate: false
+  xy: 287, 71
+  size: 62, 49
+  orig: 62, 49
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 2
+  size: 114, 118
+  orig: 114, 118
+  offset: 0, 0
+  index: -1
+leg left
+  rotate: true
+  xy: 351, 79
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1
+leg right
+  rotate: true
+  xy: 410, 79
+  size: 41, 57
+  orig: 41, 57
+  offset: 0, 0
+  index: -1

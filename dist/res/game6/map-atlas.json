@@ -1,0 +1,119 @@
+{"frames": {
+
+"balloon.png":
+{
+	"frame": {"x":447,"y":1689,"w":168,"h":124},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":168,"h":124},
+	"sourceSize": {"w":168,"h":124}
+},
+"corner.png":
+{
+	"frame": {"x":1,"y":1,"w":444,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":444},
+	"sourceSize": {"w":444,"h":444}
+},
+"cross.png":
+{
+	"frame": {"x":447,"y":1,"w":444,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":444},
+	"sourceSize": {"w":444,"h":444}
+},
+"deadend.png":
+{
+	"frame": {"x":1,"y":447,"w":444,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":444},
+	"sourceSize": {"w":444,"h":444}
+},
+"deadend_mask.png":
+{
+	"frame": {"x":447,"y":447,"w":444,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":444},
+	"sourceSize": {"w":444,"h":444}
+},
+"empty.png":
+{
+	"frame": {"x":1,"y":893,"w":444,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":444},
+	"sourceSize": {"w":444,"h":444}
+},
+"ghost.png":
+{
+	"frame": {"x":621,"y":1631,"w":160,"h":152},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":160,"h":152},
+	"sourceSize": {"w":160,"h":152}
+},
+"normal 1.png":
+{
+	"frame": {"x":447,"y":1339,"w":186,"h":176},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":176},
+	"sourceSize": {"w":186,"h":176}
+},
+"normal 2.png":
+{
+	"frame": {"x":635,"y":1494,"w":135,"h":219},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":135,"h":219},
+	"sourceSize": {"w":135,"h":219}
+},
+"normal 3.png":
+{
+	"frame": {"x":447,"y":1517,"w":170,"h":172},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":170,"h":172},
+	"sourceSize": {"w":170,"h":172}
+},
+"normal 4.png":
+{
+	"frame": {"x":635,"y":1339,"w":153,"h":195},
+	"rotated": true,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":153,"h":195},
+	"sourceSize": {"w":153,"h":195}
+},
+"straight.png":
+{
+	"frame": {"x":447,"y":893,"w":444,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":444},
+	"sourceSize": {"w":444,"h":444}
+},
+"t.png":
+{
+	"frame": {"x":1,"y":1339,"w":444,"h":444},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":444,"h":444},
+	"sourceSize": {"w":444,"h":444}
+}},
+"animations": {
+	"normal ": ["normal 1.png","normal 2.png","normal 3.png","normal 4.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "map-atlas.png",
+	"format": "RGBA8888",
+	"size": {"w":892,"h":1814},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:97034793ef8e333acb494125bcd69c8c:f407207390e0500c5aad25b78a3f2a1c:d07ebafb47b60d8b54cb032351527d1e$"
+}
+}
